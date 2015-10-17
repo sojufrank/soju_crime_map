@@ -2,6 +2,8 @@ source 'https://rubygems.org'
 gem 'responders'
 gem 'httparty'
 gem 'crack'
+gem 'rgeo'
+gem 'rgeo-geojson'
 
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'

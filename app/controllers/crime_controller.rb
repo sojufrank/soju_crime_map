@@ -1,7 +1,3 @@
-require 'rubygems'
-require 'httparty'
-require 'crack'
-require 'rgeo/geo_json'
 class CrimeController < ApplicationController
 
     def home
@@ -10,15 +6,20 @@ class CrimeController < ApplicationController
 
  
   def crimedata
+    
     @crime = HTTParty.get("https://data.seattle.gov/resource/7ais-f98f.json")
 
     @hash = JSON.parse(@crime.body)
 
     @soju = @crime
 
-    str1 = HTTParty.get("https://data.seattle.gov/resource/7ais-f98f.json")
-    @geom = RGeo::GeoJSON.decode(str1, :json_parser => :json)
-    puts @geom.to_json+ "@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@"
+    @soju1 = JSON.pretty_generate(@soju)
+
+    puts '@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@'
+    puts @soju.first
+
+
+
     #@soju.to_json
    
 
@@ -38,6 +39,7 @@ class CrimeController < ApplicationController
     end
     #puts @crime.body, @crime.code, @crime.message, @crime.headers.inspect
     #puts @crime
+    
   end
 
 end 

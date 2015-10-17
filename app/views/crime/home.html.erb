@@ -1,4 +1,57 @@
   <body>
+
+ <script>
+
+        document.write("hello world")
+
+      /*
+        $.getJSON("https://data.seattle.gov/resource/7ais-f98f.json", function(data) {
+        for (var i in data) {
+            console.log(data[i]);
+        }
+        document.getElementById("placeholder").innerHTML=data[0].month;
+        });
+
+
+
+        $.getJSON("https://data.seattle.gov/resource/7ais-f98f.json", function(data) {
+          var output="<ul>";
+        for (var i in data) {
+            console.log(data[i]);
+            output+="<li>" + data[i].location.latitude + " " + data[i].location.longitude + "</li>";
+        }
+        output+="</ul>";
+        document.getElementById("placeholder").innerHTML=output;
+        });
+              */
+
+        var soju = $.getJSON("https://data.seattle.gov/resource/7ais-f98f.json", function(data) {
+          var output="<ul>";
+        for (var i in data) {
+            console.log(data[i]);
+            output+="<li>" + data[i].date_reported + " " + data[i].location.latitude + " " + data[i].location.longitude + "</li>";
+        }
+        output+="</ul>";
+        document.getElementById("placeholder").innerHTML=output;
+        });
+
+
+
+
+/*
+    var output="<ul>";
+    for (var i in data.users) {
+        output+="<li>" + data[i].month +"</li>";
+    }
+    output+="</ul>";
+
+    document.getElementById("placeholder").innerHTML=output;
+    */
+</script>
+
+
+
+
     <div id="map" style="width:500px;height:380px;"></div>
     </script>
     <script async defer
@@ -8,5 +61,7 @@
     <%= link_to 'crimedata.html', 'crimedata' %>
     <br>
     <%= link_to 'crimedata.json', 'crimedata.json' %>
+
+      <div id="placeholder"></div>
   </body>
 </html>

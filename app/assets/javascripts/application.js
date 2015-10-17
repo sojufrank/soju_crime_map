@@ -24,3 +24,13 @@ function initMap() {
   // NOTE: This uses cross-domain XHR, and may not work on older browsers.
   map.data.loadGeoJson('https://storage.googleapis.com/maps-devrel/google.json');
 }
+
+/*
+url = "https://data.seattle.gov/resource/7ais-f98f.json"
+
+$.getJSON("https://data.seattle.gov/resource/7ais-f98f.json", function(data){
+    for (var i = 0, len = data.length; i < len; i++) {
+        console.log(data[i]);
+    }
+});
+*/

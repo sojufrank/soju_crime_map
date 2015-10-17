@@ -1,4 +1,5 @@
 Rails.application.routes.draw do
+  get 'home' => 'crime#home'
 
   get 'crimedata' => 'crime#crimedata'
   # The priority is based upon order of creation: first created -> highest priority.

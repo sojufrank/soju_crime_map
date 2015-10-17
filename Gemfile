@@ -1,5 +1,6 @@
 source 'https://rubygems.org'
 gem 'responders'
+gem 'httparty'
 
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'

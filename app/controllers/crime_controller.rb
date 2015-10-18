@@ -7,16 +7,16 @@ class CrimeController < ApplicationController
  
   def crimedata
     
-    @crime = HTTParty.get("https://data.seattle.gov/resource/7ais-f98f.json")
+    #@crime = HTTParty.get("https://data.seattle.gov/resource/7ais-f98f.json")
 
-    @hash = JSON.parse(@crime.body)
+    #@hash = JSON.parse(@crime.body)
 
-    @soju = @crime
+    #@soju = @crime
 
-    @soju1 = JSON.pretty_generate(@soju)
+   # @soju1 = JSON.pretty_generate(@soju)
 
-    puts '@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@'
-    puts @soju.first
+    #puts '@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@'
+  #  puts @soju.first
 
 
 
@@ -33,10 +33,10 @@ class CrimeController < ApplicationController
     #my_hash_array = Crack::JSON.parse(@crime.body)
     #puts my_hash_array
 
-    respond_to do |format|
-        format.html
-        format.json { render json: @soju }
-    end
+    #respond_to do |format|
+    #    format.html
+    #    format.json { render json: @soju }
+    #end
     #puts @crime.body, @crime.code, @crime.message, @crime.headers.inspect
     #puts @crime
     

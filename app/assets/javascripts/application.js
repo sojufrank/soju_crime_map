@@ -15,22 +15,4 @@
 //= require turbolinks
 //= require_tree .
 
-var map;
-function initMap() {
-  map = new google.maps.Map(document.getElementById('map'), {
-    center: {lat: 47.6097, lng: -122.3331},
-    zoom: 12
-  });
-  // NOTE: This uses cross-domain XHR, and may not work on older browsers.
-  map.data.loadGeoJson('https://storage.googleapis.com/maps-devrel/google.json');
-}
 
-/*
-url = "https://data.seattle.gov/resource/7ais-f98f.json"
-
-$.getJSON("https://data.seattle.gov/resource/7ais-f98f.json", function(data){
-    for (var i = 0, len = data.length; i < len; i++) {
-        console.log(data[i]);
-    }
-});
-*/

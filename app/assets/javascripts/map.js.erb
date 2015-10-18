@@ -1,0 +1,46 @@
+function initMap() {
+
+    $.ajax({
+        type: 'GET',
+        url: 'https://data.seattle.gov/resource/7ais-f98f.json',
+        dataType: 'json',
+        success: function(data) {
+            //console.log(JSON.stringify(data));
+            //var tdata = JSON.parse(data);
+            console.log(data[0]);
+            console.log(data[1]);
+            console.log(data[2]);
+            console.log(data[3]);
+
+
+            //Manual input of locations for satisfaction
+            var locations = [
+                ['15XX BLOCK OF BROADWAY', 47.614655488, -122.320789515],
+                ['22XX BLOCK OF 1 AV', 47.612990814, -122.345863107],
+                ['16XX BLOCK OF 11 AV', 47.615838397, -122.318168851],
+                ['8XX BLOCK OF 9 AV', 47.607338845, -122.326381985]
+            ];
+            //seattle coords - {lat: 47.6097, lng: -122.3331}
+            var myLatlng = new google.maps.LatLng(47.6097, -122.3331);
+
+            var mapOptions = {
+                zoom: 1,
+                center: myLatlng
+            }
+            //<div id="map">
+            var map = new google.maps.Map(document.getElementById("map"), mapOptions);
+
+            //test marker position from what i read on google documentation
+            new google.maps.Marker({position: {lat: 52.3702, lng: 4.8952}, map: map});
+
+            //Loop goes through locations hash
+            var marker, i;
+            for (i = 0; i < locations.length; i++) {
+                marker = new google.maps.Marker({
+                    position: new google.maps.LatLng(locations[i][1], locations[i][2]), 
+                    map: map
+                });
+            }
+        }
+    });
+}

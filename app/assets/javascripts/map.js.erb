@@ -15,10 +15,10 @@ function initMap() {
 
             //Manual input of locations for satisfaction
             var locations = [
-                [data[0].hundred_block_location, data[0].latitude, data[0].longitude],
-                [data[1].hundred_block_location, data[1].latitude, data[1].longitude],
-                [data[2].hundred_block_location, data[2].latitude, data[2].longitude],
-                [data[3].hundred_block_location, data[3].latitude, data[3].longitude],
+                [data[0].latitude, data[0].longitude],
+                [data[1].latitude, data[1].longitude],
+                [data[2].latitude, data[2].longitude],
+                [data[3].latitude, data[3].longitude],
                 //['22XX BLOCK OF 1 AV', 47.612990814, -122.345863107],
                 //['16XX BLOCK OF 11 AV', 47.615838397, -122.318168851],
                 //['8XX BLOCK OF 9 AV', 47.607338845, -122.326381985]
@@ -40,7 +40,7 @@ function initMap() {
             var marker, i;
             for (i = 0; i < locations.length; i++) {
                 marker = new google.maps.Marker({
-                    position: new google.maps.LatLng(locations[i][1], locations[i][2]), 
+                    position: new google.maps.LatLng(locations[i][0], locations[i][1]), 
                     map: map
                 });
             }

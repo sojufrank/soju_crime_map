@@ -15,10 +15,13 @@ function initMap() {
 
             //Manual input of locations for satisfaction
             var locations = [
-                ['15XX BLOCK OF BROADWAY', 47.614655488, -122.320789515],
-                ['22XX BLOCK OF 1 AV', 47.612990814, -122.345863107],
-                ['16XX BLOCK OF 11 AV', 47.615838397, -122.318168851],
-                ['8XX BLOCK OF 9 AV', 47.607338845, -122.326381985]
+                [data[0].hundred_block_location, data[0].latitude, data[0].longitude],
+                [data[1].hundred_block_location, data[1].latitude, data[1].longitude],
+                [data[2].hundred_block_location, data[2].latitude, data[2].longitude],
+                [data[3].hundred_block_location, data[3].latitude, data[3].longitude],
+                //['22XX BLOCK OF 1 AV', 47.612990814, -122.345863107],
+                //['16XX BLOCK OF 11 AV', 47.615838397, -122.318168851],
+                //['8XX BLOCK OF 9 AV', 47.607338845, -122.326381985]
             ];
             //seattle coords - {lat: 47.6097, lng: -122.3331}
             var myLatlng = new google.maps.LatLng(47.6097, -122.3331);

@@ -39118,3 +39118,693 @@ Started GET "/assets/map.self-61161354c4991718da5306c0ddf0069d204c205a2e360d1564
 
 
 Started GET "/assets/application.self-7862a8a8b42407b4741a1adeeea35f0d13ddc4f702ec532adb0674491d296495.js?body=1" for 127.0.0.1 at 2015-10-18 15:27:03 -0700
+
+
+Started GET "/" for 127.0.0.1 at 2015-10-18 15:28:30 -0700
+Processing by CrimeController#home as HTML
+  Rendered crime/home.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 39ms (Views: 38.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/crime.self-2bf4265c5152afddb425d98d49a75b078e2f963e202922c9fe2fa9f8dda4c5f0.css?body=1" for 127.0.0.1 at 2015-10-18 15:28:30 -0700
+
+
+Started GET "/assets/application.self-dae5c5da7223ce739ad497817a3df9ba2fa2840da302653b11558b4f7d98bfc3.css?body=1" for 127.0.0.1 at 2015-10-18 15:28:30 -0700
+
+
+Started GET "/assets/crime.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-10-18 15:28:30 -0700
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for 127.0.0.1 at 2015-10-18 15:28:30 -0700
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 127.0.0.1 at 2015-10-18 15:28:30 -0700
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for 127.0.0.1 at 2015-10-18 15:28:30 -0700
+
+
+Started GET "/assets/map.self-61161354c4991718da5306c0ddf0069d204c205a2e360d1564d2af55aa86541d.js?body=1" for 127.0.0.1 at 2015-10-18 15:28:30 -0700
+
+
+Started GET "/assets/application.self-7862a8a8b42407b4741a1adeeea35f0d13ddc4f702ec532adb0674491d296495.js?body=1" for 127.0.0.1 at 2015-10-18 15:28:30 -0700
+
+
+Started GET "/" for 127.0.0.1 at 2015-10-18 15:32:40 -0700
+Processing by CrimeController#home as HTML
+  Rendered crime/home.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 101ms (Views: 100.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-dae5c5da7223ce739ad497817a3df9ba2fa2840da302653b11558b4f7d98bfc3.css?body=1" for 127.0.0.1 at 2015-10-18 15:32:40 -0700
+
+
+Started GET "/assets/crime.self-2bf4265c5152afddb425d98d49a75b078e2f963e202922c9fe2fa9f8dda4c5f0.css?body=1" for 127.0.0.1 at 2015-10-18 15:32:40 -0700
+
+
+Started GET "/assets/crime.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-10-18 15:32:40 -0700
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for 127.0.0.1 at 2015-10-18 15:32:40 -0700
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 127.0.0.1 at 2015-10-18 15:32:40 -0700
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for 127.0.0.1 at 2015-10-18 15:32:40 -0700
+
+
+Started GET "/assets/map.self-ed0e2297c548a3ef552f8e162e60d7f71064a91b1652e10010aac9afc9a25624.js?body=1" for 127.0.0.1 at 2015-10-18 15:32:40 -0700
+
+
+Started GET "/assets/application.self-7862a8a8b42407b4741a1adeeea35f0d13ddc4f702ec532adb0674491d296495.js?body=1" for 127.0.0.1 at 2015-10-18 15:32:40 -0700
+
+
+Started GET "/" for 127.0.0.1 at 2015-10-18 15:33:28 -0700
+Processing by CrimeController#home as HTML
+  Rendered crime/home.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 104ms (Views: 102.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/crime.self-2bf4265c5152afddb425d98d49a75b078e2f963e202922c9fe2fa9f8dda4c5f0.css?body=1" for 127.0.0.1 at 2015-10-18 15:33:29 -0700
+
+
+Started GET "/assets/application.self-dae5c5da7223ce739ad497817a3df9ba2fa2840da302653b11558b4f7d98bfc3.css?body=1" for 127.0.0.1 at 2015-10-18 15:33:29 -0700
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for 127.0.0.1 at 2015-10-18 15:33:29 -0700
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 127.0.0.1 at 2015-10-18 15:33:29 -0700
+
+
+Started GET "/assets/crime.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-10-18 15:33:29 -0700
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for 127.0.0.1 at 2015-10-18 15:33:29 -0700
+
+
+Started GET "/assets/map.self-3635f75b2bd5189d954a2a40fab32bd66510fda9e211d1e186c12b9750df1867.js?body=1" for 127.0.0.1 at 2015-10-18 15:33:29 -0700
+
+
+Started GET "/assets/application.self-7862a8a8b42407b4741a1adeeea35f0d13ddc4f702ec532adb0674491d296495.js?body=1" for 127.0.0.1 at 2015-10-18 15:33:29 -0700
+
+
+Started GET "/" for 127.0.0.1 at 2015-10-18 15:33:37 -0700
+Processing by CrimeController#home as HTML
+  Rendered crime/home.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 190ms (Views: 180.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/crime.self-2bf4265c5152afddb425d98d49a75b078e2f963e202922c9fe2fa9f8dda4c5f0.css?body=1" for 127.0.0.1 at 2015-10-18 15:33:38 -0700
+
+
+Started GET "/assets/application.self-dae5c5da7223ce739ad497817a3df9ba2fa2840da302653b11558b4f7d98bfc3.css?body=1" for 127.0.0.1 at 2015-10-18 15:33:38 -0700
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for 127.0.0.1 at 2015-10-18 15:33:38 -0700
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 127.0.0.1 at 2015-10-18 15:33:38 -0700
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for 127.0.0.1 at 2015-10-18 15:33:38 -0700
+
+
+Started GET "/assets/crime.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-10-18 15:33:38 -0700
+
+
+Started GET "/assets/map.self-3635f75b2bd5189d954a2a40fab32bd66510fda9e211d1e186c12b9750df1867.js?body=1" for 127.0.0.1 at 2015-10-18 15:33:38 -0700
+
+
+Started GET "/assets/application.self-7862a8a8b42407b4741a1adeeea35f0d13ddc4f702ec532adb0674491d296495.js?body=1" for 127.0.0.1 at 2015-10-18 15:33:38 -0700
+
+
+Started GET "/" for 127.0.0.1 at 2015-10-18 15:34:04 -0700
+Processing by CrimeController#home as HTML
+  Rendered crime/home.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 43ms (Views: 42.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-dae5c5da7223ce739ad497817a3df9ba2fa2840da302653b11558b4f7d98bfc3.css?body=1" for 127.0.0.1 at 2015-10-18 15:34:04 -0700
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for 127.0.0.1 at 2015-10-18 15:34:04 -0700
+
+
+Started GET "/assets/crime.self-2bf4265c5152afddb425d98d49a75b078e2f963e202922c9fe2fa9f8dda4c5f0.css?body=1" for 127.0.0.1 at 2015-10-18 15:34:04 -0700
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 127.0.0.1 at 2015-10-18 15:34:04 -0700
+
+
+Started GET "/assets/crime.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-10-18 15:34:04 -0700
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for 127.0.0.1 at 2015-10-18 15:34:04 -0700
+
+
+Started GET "/assets/map.self-3635f75b2bd5189d954a2a40fab32bd66510fda9e211d1e186c12b9750df1867.js?body=1" for 127.0.0.1 at 2015-10-18 15:34:04 -0700
+
+
+Started GET "/assets/application.self-7862a8a8b42407b4741a1adeeea35f0d13ddc4f702ec532adb0674491d296495.js?body=1" for 127.0.0.1 at 2015-10-18 15:34:04 -0700
+
+
+Started GET "/" for 127.0.0.1 at 2015-10-18 15:34:34 -0700
+Processing by CrimeController#home as HTML
+  Rendered crime/home.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 143ms (Views: 141.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/crime.self-2bf4265c5152afddb425d98d49a75b078e2f963e202922c9fe2fa9f8dda4c5f0.css?body=1" for 127.0.0.1 at 2015-10-18 15:34:34 -0700
+
+
+Started GET "/assets/application.self-dae5c5da7223ce739ad497817a3df9ba2fa2840da302653b11558b4f7d98bfc3.css?body=1" for 127.0.0.1 at 2015-10-18 15:34:34 -0700
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 127.0.0.1 at 2015-10-18 15:34:34 -0700
+
+
+Started GET "/assets/crime.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-10-18 15:34:34 -0700
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for 127.0.0.1 at 2015-10-18 15:34:34 -0700
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for 127.0.0.1 at 2015-10-18 15:34:34 -0700
+
+
+Started GET "/assets/map.self-0f2bfbf9990c961b67df0e5c6174220ed92b00ed798f9b39e3d753ccba91d402.js?body=1" for 127.0.0.1 at 2015-10-18 15:34:34 -0700
+
+
+Started GET "/assets/application.self-7862a8a8b42407b4741a1adeeea35f0d13ddc4f702ec532adb0674491d296495.js?body=1" for 127.0.0.1 at 2015-10-18 15:34:34 -0700
+
+
+Started GET "/" for 127.0.0.1 at 2015-10-18 15:35:57 -0700
+Processing by CrimeController#home as HTML
+  Rendered crime/home.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 39ms (Views: 38.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/crime.self-2bf4265c5152afddb425d98d49a75b078e2f963e202922c9fe2fa9f8dda4c5f0.css?body=1" for 127.0.0.1 at 2015-10-18 15:35:57 -0700
+
+
+Started GET "/assets/application.self-dae5c5da7223ce739ad497817a3df9ba2fa2840da302653b11558b4f7d98bfc3.css?body=1" for 127.0.0.1 at 2015-10-18 15:35:57 -0700
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 127.0.0.1 at 2015-10-18 15:35:57 -0700
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for 127.0.0.1 at 2015-10-18 15:35:57 -0700
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for 127.0.0.1 at 2015-10-18 15:35:57 -0700
+
+
+Started GET "/assets/crime.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-10-18 15:35:57 -0700
+
+
+Started GET "/assets/map.self-0f2bfbf9990c961b67df0e5c6174220ed92b00ed798f9b39e3d753ccba91d402.js?body=1" for 127.0.0.1 at 2015-10-18 15:35:57 -0700
+
+
+Started GET "/assets/application.self-7862a8a8b42407b4741a1adeeea35f0d13ddc4f702ec532adb0674491d296495.js?body=1" for 127.0.0.1 at 2015-10-18 15:35:57 -0700
+
+
+Started GET "/" for 127.0.0.1 at 2015-10-18 15:37:31 -0700
+Processing by CrimeController#home as HTML
+  Rendered crime/home.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 107ms (Views: 105.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-dae5c5da7223ce739ad497817a3df9ba2fa2840da302653b11558b4f7d98bfc3.css?body=1" for 127.0.0.1 at 2015-10-18 15:37:31 -0700
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for 127.0.0.1 at 2015-10-18 15:37:31 -0700
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for 127.0.0.1 at 2015-10-18 15:37:31 -0700
+
+
+Started GET "/assets/crime.self-2bf4265c5152afddb425d98d49a75b078e2f963e202922c9fe2fa9f8dda4c5f0.css?body=1" for 127.0.0.1 at 2015-10-18 15:37:31 -0700
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 127.0.0.1 at 2015-10-18 15:37:31 -0700
+
+
+Started GET "/assets/crime.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-10-18 15:37:31 -0700
+
+
+Started GET "/assets/map.self-adf641f06a8a012a86a007a2ef2319d6ad9cdea951fabb0c855adcf84648f9e5.js?body=1" for 127.0.0.1 at 2015-10-18 15:37:31 -0700
+
+
+Started GET "/assets/application.self-7862a8a8b42407b4741a1adeeea35f0d13ddc4f702ec532adb0674491d296495.js?body=1" for 127.0.0.1 at 2015-10-18 15:37:31 -0700
+
+
+Started GET "/" for 127.0.0.1 at 2015-10-18 15:37:48 -0700
+Processing by CrimeController#home as HTML
+  Rendered crime/home.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 110ms (Views: 109.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/crime.self-2bf4265c5152afddb425d98d49a75b078e2f963e202922c9fe2fa9f8dda4c5f0.css?body=1" for 127.0.0.1 at 2015-10-18 15:37:48 -0700
+
+
+Started GET "/assets/application.self-dae5c5da7223ce739ad497817a3df9ba2fa2840da302653b11558b4f7d98bfc3.css?body=1" for 127.0.0.1 at 2015-10-18 15:37:48 -0700
+
+
+Started GET "/assets/crime.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-10-18 15:37:48 -0700
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for 127.0.0.1 at 2015-10-18 15:37:48 -0700
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 127.0.0.1 at 2015-10-18 15:37:48 -0700
+
+
+Started GET "/assets/map.self-9ff5d5f1124cf47badbb17aed7cffa06ad798eb0d9c381794e58e11cb0c37c18.js?body=1" for 127.0.0.1 at 2015-10-18 15:37:48 -0700
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for 127.0.0.1 at 2015-10-18 15:37:48 -0700
+
+
+Started GET "/assets/application.self-7862a8a8b42407b4741a1adeeea35f0d13ddc4f702ec532adb0674491d296495.js?body=1" for 127.0.0.1 at 2015-10-18 15:37:48 -0700
+
+
+Started GET "/" for 127.0.0.1 at 2015-10-18 15:38:10 -0700
+Processing by CrimeController#home as HTML
+  Rendered crime/home.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 115ms (Views: 114.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/crime.self-2bf4265c5152afddb425d98d49a75b078e2f963e202922c9fe2fa9f8dda4c5f0.css?body=1" for 127.0.0.1 at 2015-10-18 15:38:11 -0700
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for 127.0.0.1 at 2015-10-18 15:38:11 -0700
+
+
+Started GET "/assets/application.self-dae5c5da7223ce739ad497817a3df9ba2fa2840da302653b11558b4f7d98bfc3.css?body=1" for 127.0.0.1 at 2015-10-18 15:38:11 -0700
+
+
+Started GET "/assets/crime.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-10-18 15:38:11 -0700
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 127.0.0.1 at 2015-10-18 15:38:11 -0700
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for 127.0.0.1 at 2015-10-18 15:38:11 -0700
+
+
+Started GET "/assets/map.self-ceeb377b76c89677da95a1fa54307b7f80d7d6d61766ddc8b726509fc647c3b6.js?body=1" for 127.0.0.1 at 2015-10-18 15:38:11 -0700
+
+
+Started GET "/assets/application.self-7862a8a8b42407b4741a1adeeea35f0d13ddc4f702ec532adb0674491d296495.js?body=1" for 127.0.0.1 at 2015-10-18 15:38:11 -0700
+
+
+Started GET "/" for 127.0.0.1 at 2015-10-18 15:38:27 -0700
+Processing by CrimeController#home as HTML
+  Rendered crime/home.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 42ms (Views: 40.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for 127.0.0.1 at 2015-10-18 15:38:28 -0700
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 127.0.0.1 at 2015-10-18 15:38:28 -0700
+
+
+Started GET "/assets/crime.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-10-18 15:38:28 -0700
+
+
+Started GET "/assets/crime.self-2bf4265c5152afddb425d98d49a75b078e2f963e202922c9fe2fa9f8dda4c5f0.css?body=1" for 127.0.0.1 at 2015-10-18 15:38:28 -0700
+
+
+Started GET "/assets/application.self-dae5c5da7223ce739ad497817a3df9ba2fa2840da302653b11558b4f7d98bfc3.css?body=1" for 127.0.0.1 at 2015-10-18 15:38:28 -0700
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for 127.0.0.1 at 2015-10-18 15:38:28 -0700
+
+
+Started GET "/assets/map.self-ceeb377b76c89677da95a1fa54307b7f80d7d6d61766ddc8b726509fc647c3b6.js?body=1" for 127.0.0.1 at 2015-10-18 15:38:28 -0700
+
+
+Started GET "/assets/application.self-7862a8a8b42407b4741a1adeeea35f0d13ddc4f702ec532adb0674491d296495.js?body=1" for 127.0.0.1 at 2015-10-18 15:38:28 -0700
+
+
+Started GET "/" for 127.0.0.1 at 2015-10-18 15:39:04 -0700
+Processing by CrimeController#home as HTML
+  Rendered crime/home.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 108ms (Views: 107.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/crime.self-2bf4265c5152afddb425d98d49a75b078e2f963e202922c9fe2fa9f8dda4c5f0.css?body=1" for 127.0.0.1 at 2015-10-18 15:39:04 -0700
+
+
+Started GET "/assets/application.self-dae5c5da7223ce739ad497817a3df9ba2fa2840da302653b11558b4f7d98bfc3.css?body=1" for 127.0.0.1 at 2015-10-18 15:39:04 -0700
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for 127.0.0.1 at 2015-10-18 15:39:04 -0700
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for 127.0.0.1 at 2015-10-18 15:39:04 -0700
+
+
+Started GET "/assets/crime.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-10-18 15:39:04 -0700
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 127.0.0.1 at 2015-10-18 15:39:04 -0700
+
+
+Started GET "/assets/map.self-ef730724b6adea8b679e45727be335171f631aa152b150479f0c4b52740c7ff4.js?body=1" for 127.0.0.1 at 2015-10-18 15:39:04 -0700
+
+
+Started GET "/assets/application.self-7862a8a8b42407b4741a1adeeea35f0d13ddc4f702ec532adb0674491d296495.js?body=1" for 127.0.0.1 at 2015-10-18 15:39:04 -0700
+
+
+Started GET "/" for 127.0.0.1 at 2015-10-18 15:39:06 -0700
+Processing by CrimeController#home as HTML
+  Rendered crime/home.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 40ms (Views: 39.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/crime.self-2bf4265c5152afddb425d98d49a75b078e2f963e202922c9fe2fa9f8dda4c5f0.css?body=1" for 127.0.0.1 at 2015-10-18 15:39:06 -0700
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for 127.0.0.1 at 2015-10-18 15:39:06 -0700
+
+
+Started GET "/assets/crime.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-10-18 15:39:06 -0700
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 127.0.0.1 at 2015-10-18 15:39:06 -0700
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for 127.0.0.1 at 2015-10-18 15:39:06 -0700
+
+
+Started GET "/assets/application.self-dae5c5da7223ce739ad497817a3df9ba2fa2840da302653b11558b4f7d98bfc3.css?body=1" for 127.0.0.1 at 2015-10-18 15:39:06 -0700
+
+
+Started GET "/assets/map.self-ef730724b6adea8b679e45727be335171f631aa152b150479f0c4b52740c7ff4.js?body=1" for 127.0.0.1 at 2015-10-18 15:39:06 -0700
+
+
+Started GET "/assets/application.self-7862a8a8b42407b4741a1adeeea35f0d13ddc4f702ec532adb0674491d296495.js?body=1" for 127.0.0.1 at 2015-10-18 15:39:06 -0700
+
+
+Started GET "/" for 127.0.0.1 at 2015-10-18 15:39:14 -0700
+Processing by CrimeController#home as HTML
+  Rendered crime/home.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 109ms (Views: 108.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-dae5c5da7223ce739ad497817a3df9ba2fa2840da302653b11558b4f7d98bfc3.css?body=1" for 127.0.0.1 at 2015-10-18 15:39:14 -0700
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for 127.0.0.1 at 2015-10-18 15:39:14 -0700
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 127.0.0.1 at 2015-10-18 15:39:14 -0700
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for 127.0.0.1 at 2015-10-18 15:39:14 -0700
+
+
+Started GET "/assets/crime.self-2bf4265c5152afddb425d98d49a75b078e2f963e202922c9fe2fa9f8dda4c5f0.css?body=1" for 127.0.0.1 at 2015-10-18 15:39:14 -0700
+
+
+Started GET "/assets/crime.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-10-18 15:39:14 -0700
+
+
+Started GET "/assets/map.self-4cf760ebbc229c1720edd8c742bc6038b8bbf7d3c361beae0a8417a8ea8a6c9f.js?body=1" for 127.0.0.1 at 2015-10-18 15:39:14 -0700
+
+
+Started GET "/assets/application.self-7862a8a8b42407b4741a1adeeea35f0d13ddc4f702ec532adb0674491d296495.js?body=1" for 127.0.0.1 at 2015-10-18 15:39:14 -0700
+
+
+Started GET "/" for 127.0.0.1 at 2015-10-18 15:39:30 -0700
+Processing by CrimeController#home as HTML
+  Rendered crime/home.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 115ms (Views: 113.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-dae5c5da7223ce739ad497817a3df9ba2fa2840da302653b11558b4f7d98bfc3.css?body=1" for 127.0.0.1 at 2015-10-18 15:39:30 -0700
+
+
+Started GET "/assets/crime.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-10-18 15:39:30 -0700
+
+
+Started GET "/assets/crime.self-2bf4265c5152afddb425d98d49a75b078e2f963e202922c9fe2fa9f8dda4c5f0.css?body=1" for 127.0.0.1 at 2015-10-18 15:39:30 -0700
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for 127.0.0.1 at 2015-10-18 15:39:30 -0700
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for 127.0.0.1 at 2015-10-18 15:39:30 -0700
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 127.0.0.1 at 2015-10-18 15:39:30 -0700
+
+
+Started GET "/assets/map.self-b3c21fb586b8501628c6250442c23e1a5b43f2472a85a0b94472a6f284704191.js?body=1" for 127.0.0.1 at 2015-10-18 15:39:30 -0700
+
+
+Started GET "/assets/application.self-7862a8a8b42407b4741a1adeeea35f0d13ddc4f702ec532adb0674491d296495.js?body=1" for 127.0.0.1 at 2015-10-18 15:39:30 -0700
+
+
+Started GET "/" for 127.0.0.1 at 2015-10-18 15:39:59 -0700
+Processing by CrimeController#home as HTML
+  Rendered crime/home.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 105ms (Views: 104.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-dae5c5da7223ce739ad497817a3df9ba2fa2840da302653b11558b4f7d98bfc3.css?body=1" for 127.0.0.1 at 2015-10-18 15:39:59 -0700
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for 127.0.0.1 at 2015-10-18 15:39:59 -0700
+
+
+Started GET "/assets/crime.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-10-18 15:39:59 -0700
+
+
+Started GET "/assets/crime.self-2bf4265c5152afddb425d98d49a75b078e2f963e202922c9fe2fa9f8dda4c5f0.css?body=1" for 127.0.0.1 at 2015-10-18 15:39:59 -0700
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for 127.0.0.1 at 2015-10-18 15:39:59 -0700
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 127.0.0.1 at 2015-10-18 15:39:59 -0700
+
+
+Started GET "/assets/map.self-71dacbb9f84a3af50f9a6959856ce5dca512c9fa0dd25e96fade5d23101896f4.js?body=1" for 127.0.0.1 at 2015-10-18 15:39:59 -0700
+
+
+Started GET "/assets/application.self-7862a8a8b42407b4741a1adeeea35f0d13ddc4f702ec532adb0674491d296495.js?body=1" for 127.0.0.1 at 2015-10-18 15:39:59 -0700
+
+
+Started GET "/" for 127.0.0.1 at 2015-10-18 15:40:25 -0700
+Processing by CrimeController#home as HTML
+  Rendered crime/home.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 109ms (Views: 107.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/crime.self-2bf4265c5152afddb425d98d49a75b078e2f963e202922c9fe2fa9f8dda4c5f0.css?body=1" for 127.0.0.1 at 2015-10-18 15:40:25 -0700
+
+
+Started GET "/assets/application.self-dae5c5da7223ce739ad497817a3df9ba2fa2840da302653b11558b4f7d98bfc3.css?body=1" for 127.0.0.1 at 2015-10-18 15:40:25 -0700
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 127.0.0.1 at 2015-10-18 15:40:25 -0700
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for 127.0.0.1 at 2015-10-18 15:40:25 -0700
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for 127.0.0.1 at 2015-10-18 15:40:25 -0700
+
+
+Started GET "/assets/crime.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-10-18 15:40:25 -0700
+
+
+Started GET "/assets/map.self-6405edc0ec9d7dccf8728b89308e866bfeacbfc71a7663a3f034d975a9317766.js?body=1" for 127.0.0.1 at 2015-10-18 15:40:25 -0700
+
+
+Started GET "/assets/application.self-7862a8a8b42407b4741a1adeeea35f0d13ddc4f702ec532adb0674491d296495.js?body=1" for 127.0.0.1 at 2015-10-18 15:40:25 -0700
+
+
+Started GET "/" for 127.0.0.1 at 2015-10-18 15:40:36 -0700
+Processing by CrimeController#home as HTML
+  Rendered crime/home.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 118ms (Views: 116.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-dae5c5da7223ce739ad497817a3df9ba2fa2840da302653b11558b4f7d98bfc3.css?body=1" for 127.0.0.1 at 2015-10-18 15:40:36 -0700
+
+
+Started GET "/assets/crime.self-2bf4265c5152afddb425d98d49a75b078e2f963e202922c9fe2fa9f8dda4c5f0.css?body=1" for 127.0.0.1 at 2015-10-18 15:40:36 -0700
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 127.0.0.1 at 2015-10-18 15:40:36 -0700
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for 127.0.0.1 at 2015-10-18 15:40:36 -0700
+
+
+Started GET "/assets/crime.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-10-18 15:40:36 -0700
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for 127.0.0.1 at 2015-10-18 15:40:36 -0700
+
+
+Started GET "/assets/map.self-a620cdf1718d4a20a453eec7ff93547ce7450a0da101c32f9550d37147244ec9.js?body=1" for 127.0.0.1 at 2015-10-18 15:40:36 -0700
+
+
+Started GET "/assets/application.self-7862a8a8b42407b4741a1adeeea35f0d13ddc4f702ec532adb0674491d296495.js?body=1" for 127.0.0.1 at 2015-10-18 15:40:36 -0700
+
+
+Started GET "/" for 127.0.0.1 at 2015-10-18 15:40:47 -0700
+Processing by CrimeController#home as HTML
+  Rendered crime/home.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 40ms (Views: 39.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/crime.self-2bf4265c5152afddb425d98d49a75b078e2f963e202922c9fe2fa9f8dda4c5f0.css?body=1" for 127.0.0.1 at 2015-10-18 15:40:47 -0700
+
+
+Started GET "/assets/application.self-dae5c5da7223ce739ad497817a3df9ba2fa2840da302653b11558b4f7d98bfc3.css?body=1" for 127.0.0.1 at 2015-10-18 15:40:47 -0700
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for 127.0.0.1 at 2015-10-18 15:40:48 -0700
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for 127.0.0.1 at 2015-10-18 15:40:48 -0700
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 127.0.0.1 at 2015-10-18 15:40:48 -0700
+
+
+Started GET "/assets/crime.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-10-18 15:40:48 -0700
+
+
+Started GET "/assets/map.self-71dacbb9f84a3af50f9a6959856ce5dca512c9fa0dd25e96fade5d23101896f4.js?body=1" for 127.0.0.1 at 2015-10-18 15:40:48 -0700
+
+
+Started GET "/assets/application.self-7862a8a8b42407b4741a1adeeea35f0d13ddc4f702ec532adb0674491d296495.js?body=1" for 127.0.0.1 at 2015-10-18 15:40:48 -0700
+
+
+Started GET "/" for 127.0.0.1 at 2015-10-18 15:41:19 -0700
+Processing by CrimeController#home as HTML
+  Rendered crime/home.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 105ms (Views: 104.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/crime.self-2bf4265c5152afddb425d98d49a75b078e2f963e202922c9fe2fa9f8dda4c5f0.css?body=1" for 127.0.0.1 at 2015-10-18 15:41:19 -0700
+
+
+Started GET "/assets/application.self-dae5c5da7223ce739ad497817a3df9ba2fa2840da302653b11558b4f7d98bfc3.css?body=1" for 127.0.0.1 at 2015-10-18 15:41:19 -0700
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for 127.0.0.1 at 2015-10-18 15:41:19 -0700
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for 127.0.0.1 at 2015-10-18 15:41:19 -0700
+
+
+Started GET "/assets/crime.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-10-18 15:41:19 -0700
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 127.0.0.1 at 2015-10-18 15:41:19 -0700
+
+
+Started GET "/assets/map.self-d9162273f2a337247775635c30e4aed0ccb77b18c01cef547e06dac5efbbc4a9.js?body=1" for 127.0.0.1 at 2015-10-18 15:41:19 -0700
+
+
+Started GET "/assets/application.self-7862a8a8b42407b4741a1adeeea35f0d13ddc4f702ec532adb0674491d296495.js?body=1" for 127.0.0.1 at 2015-10-18 15:41:19 -0700
+
+
+Started GET "/" for 127.0.0.1 at 2015-10-18 15:41:44 -0700
+Processing by CrimeController#home as HTML
+  Rendered crime/home.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 119ms (Views: 118.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for 127.0.0.1 at 2015-10-18 15:41:44 -0700
+
+
+Started GET "/assets/application.self-dae5c5da7223ce739ad497817a3df9ba2fa2840da302653b11558b4f7d98bfc3.css?body=1" for 127.0.0.1 at 2015-10-18 15:41:44 -0700
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 127.0.0.1 at 2015-10-18 15:41:44 -0700
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for 127.0.0.1 at 2015-10-18 15:41:44 -0700
+
+
+Started GET "/assets/crime.self-2bf4265c5152afddb425d98d49a75b078e2f963e202922c9fe2fa9f8dda4c5f0.css?body=1" for 127.0.0.1 at 2015-10-18 15:41:44 -0700
+
+
+Started GET "/assets/crime.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-10-18 15:41:44 -0700
+
+
+Started GET "/assets/map.self-a02b31dfc261d09cbfd4371992a9cb61174d6f967ec4ab6f145fc4825c0a4f0f.js?body=1" for 127.0.0.1 at 2015-10-18 15:41:44 -0700
+
+
+Started GET "/assets/application.self-7862a8a8b42407b4741a1adeeea35f0d13ddc4f702ec532adb0674491d296495.js?body=1" for 127.0.0.1 at 2015-10-18 15:41:44 -0700
+
+
+Started GET "/" for 127.0.0.1 at 2015-10-18 15:42:09 -0700
+Processing by CrimeController#home as HTML
+  Rendered crime/home.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 99ms (Views: 97.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-dae5c5da7223ce739ad497817a3df9ba2fa2840da302653b11558b4f7d98bfc3.css?body=1" for 127.0.0.1 at 2015-10-18 15:42:10 -0700
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for 127.0.0.1 at 2015-10-18 15:42:10 -0700
+
+
+Started GET "/assets/crime.self-2bf4265c5152afddb425d98d49a75b078e2f963e202922c9fe2fa9f8dda4c5f0.css?body=1" for 127.0.0.1 at 2015-10-18 15:42:10 -0700
+
+
+Started GET "/assets/crime.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-10-18 15:42:10 -0700
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 127.0.0.1 at 2015-10-18 15:42:10 -0700
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for 127.0.0.1 at 2015-10-18 15:42:10 -0700
+
+
+Started GET "/assets/map.self-e1e8ae28cc1bc9eff18d74563c106b81205046d2d28ca52638bd54cb6958122d.js?body=1" for 127.0.0.1 at 2015-10-18 15:42:10 -0700
+
+
+Started GET "/assets/application.self-7862a8a8b42407b4741a1adeeea35f0d13ddc4f702ec532adb0674491d296495.js?body=1" for 127.0.0.1 at 2015-10-18 15:42:10 -0700
+
+
+Started GET "/" for 127.0.0.1 at 2015-10-18 15:42:23 -0700
+Processing by CrimeController#home as HTML
+  Rendered crime/home.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 150ms (Views: 149.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-dae5c5da7223ce739ad497817a3df9ba2fa2840da302653b11558b4f7d98bfc3.css?body=1" for 127.0.0.1 at 2015-10-18 15:42:24 -0700
+
+
+Started GET "/assets/crime.self-2bf4265c5152afddb425d98d49a75b078e2f963e202922c9fe2fa9f8dda4c5f0.css?body=1" for 127.0.0.1 at 2015-10-18 15:42:24 -0700
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for 127.0.0.1 at 2015-10-18 15:42:24 -0700
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 127.0.0.1 at 2015-10-18 15:42:24 -0700
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for 127.0.0.1 at 2015-10-18 15:42:24 -0700
+
+
+Started GET "/assets/crime.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-10-18 15:42:24 -0700
+
+
+Started GET "/assets/map.self-50ebab627b285e6dba1111d7b1f47619af3266b08a233193224cc14564878417.js?body=1" for 127.0.0.1 at 2015-10-18 15:42:24 -0700
+
+
+Started GET "/assets/application.self-7862a8a8b42407b4741a1adeeea35f0d13ddc4f702ec532adb0674491d296495.js?body=1" for 127.0.0.1 at 2015-10-18 15:42:24 -0700

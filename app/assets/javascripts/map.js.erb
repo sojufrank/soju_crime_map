@@ -5,24 +5,49 @@ function initMap() {
         url: 'https://data.seattle.gov/resource/7ais-f98f.json',
         dataType: 'json',
         success: function(data) {
-            //console.log(JSON.stringify(data));
-            //var tdata = JSON.parse(data);
-            console.log(data[0]);
-            console.log(data[1]);
-            console.log(data[2]);
-            console.log(data[3]);
-            document.getElementById("latlog").innerHTML = data[0].latitude + " " + data[1].longitude;
 
-            //Manual input of locations for satisfaction
+            var sojulat = parseFloat(data[0].latitude);
+            var sojulng = parseFloat(data[0].longitude);
+            console.log(sojulat);
+            console.log(sojulng);
+
+            //new google.maps.Marker({position: {lat: data[0].latitude, lng: data[0].longitude}, map: map});
+
+            var crime0= new google.maps.LatLng(sojulat,sojulng);
+            var crime1= new google.maps.LatLng(parseFloat(data[1].latitude), parseFloat(data[1].longitude));
+            var crime2= new google.maps.LatLng(parseFloat(data[2].latitude), parseFloat(data[2].longitude));
+            var crime3= new google.maps.LatLng(parseFloat(data[3].latitude), parseFloat(data[3].longitude));
+
+            console.log(crime1);
+
+            
+
+
+            //new google.maps.Marker({position: crime1, map: map});
+            //console.log(crime1)
+            //var crime2 = new google.maps.LatLng(data[0].latitude, data[0].longitude);
+
+
+            //print lat and log to console
+            //console.log(data[0]);
+            //console.log(data[1]);
+            //console.log(data[2]);
+            //console.log(data[3]);
+
+            //print lat and log to page
+            document.getElementById("latlog0").innerHTML = data[0].latitude + " " + data[0].longitude;
+            document.getElementById("latlog1").innerHTML = data[1].latitude + " " + data[1].longitude;
+            document.getElementById("latlog2").innerHTML = data[2].latitude + " " + data[2].longitude;
+            document.getElementById("latlog3").innerHTML = data[3].latitude + " " + data[3].longitude;
+
+            //Dynamic Locations from ajax call
             var locations = [
                 [data[0].latitude, data[0].longitude],
                 [data[1].latitude, data[1].longitude],
                 [data[2].latitude, data[2].longitude],
                 [data[3].latitude, data[3].longitude],
-                //['22XX BLOCK OF 1 AV', 47.612990814, -122.345863107],
-                //['16XX BLOCK OF 11 AV', 47.615838397, -122.318168851],
-                //['8XX BLOCK OF 9 AV', 47.607338845, -122.326381985]
             ];
+
             //seattle coords - {lat: 47.6097, lng: -122.3331}
             var myLatlng = new google.maps.LatLng(47.6097, -122.3331);
 
@@ -35,15 +60,34 @@ function initMap() {
 
             //test marker position from what i read on google documentation
             new google.maps.Marker({position: {lat: 52.3702, lng: 4.8952}, map: map});
+            //new google.maps.Marker({position: {lat: 47.60733884, lng: -122.326381985}, map: map});
+
+            //new google.maps.Marker({position: {lat: sojulat, lng: sojulng}, map: map});
+            new google.maps.Marker({position: crime0, map: map});
+            new google.maps.Marker({position: crime1, map: map});
+            new google.maps.Marker({position: crime2, map: map});
+            new google.maps.Marker({position: crime3, map: map});
+
+
+            //new google.maps.Marker({position: {lat: data[0].latitude, lng: data[0].longitude}, map: map});
+
+
+            
+
+
+
+
+
+
 
             //Loop goes through locations hash
-            var marker, i;
-            for (i = 0; i < locations.length; i++) {
-                marker = new google.maps.Marker({
-                    position: new google.maps.LatLng(locations[i][0], locations[i][1]), 
-                    map: map
-                });
-            }
+            //var marker, i;
+            //for (i = 0; i < locations.length; i++) {
+            //    marker = new google.maps.Marker({
+            //        position: new google.maps.LatLng(locations[i][0], locations[i][1]), 
+            //        map: map
+            //    });
+            //}
         }
     });
 }

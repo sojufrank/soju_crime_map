@@ -33,10 +33,10 @@ function initMap() {
             var crimeloop = function() {
             for(i = 0; i < 1000; i++){
 
-                var hover = "Offense: " + data[i].summarized_offense_description;
-                var content = "Offense: " + data[i].summarized_offense_description;
+                var hovertitle = "Offense: " + data[i].summarized_offense_description;
+                var content = "Date: " + data[i].date_reported.substring(0,10) + "  Offense: " + data[i].summarized_offense_description;
 
-                var marker = new google.maps.Marker({position: crimeloc(i), map: map, title: hover, icon: "crimescene.png"}); 
+                var marker = new google.maps.Marker({position: crimeloc(i), map: map, title: hovertitle, icon: "crimescene.png"}); 
                 marker.addListener('click', function() {
                 });
                 var infowindow = new google.maps.InfoWindow({

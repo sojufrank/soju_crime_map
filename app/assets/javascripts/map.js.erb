@@ -31,13 +31,12 @@ function initMap() {
             //Map Markers
 
             var crimeloop = function() {
-            for(i = 0; i < 100; i++){
+            for(i = 0; i < 1000; i++){
                 var marker = new google.maps.Marker({position: crimeloc(i), map: map}); 
                 marker.addListener('click', function() {
-                infowindow.open(map, marker);
                 });
                 var infowindow = new google.maps.InfoWindow({
-                content: ""
+                
                 });
 
                 var content = "Offense: " + data[i].summarized_offense_description;   

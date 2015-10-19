@@ -9,18 +9,10 @@ function initMap() {
             var sojulat = parseFloat(data[0].latitude);
             var sojulng = parseFloat(data[0].longitude);
 
-            //new google.maps.Marker({position: {lat: data[0].latitude, lng: data[0].longitude}, map: map});
-
             var crime0= new google.maps.LatLng(sojulat,sojulng);
             var crime1= new google.maps.LatLng(parseFloat(data[1].latitude), parseFloat(data[1].longitude));
             var crime2= new google.maps.LatLng(parseFloat(data[2].latitude), parseFloat(data[2].longitude));
             var crime3= new google.maps.LatLng(parseFloat(data[3].latitude), parseFloat(data[3].longitude));
-
-            //new google.maps.Marker({position: crime1, map: map});
-            //console.log(crime1)
-            //var crime2 = new google.maps.LatLng(data[0].latitude, data[0].longitude);
-
-
             //print lat and log to console
             console.log(data[0]);
             console.log(data[1]);
@@ -51,36 +43,11 @@ function initMap() {
             //<div id="map">
             var map = new google.maps.Map(document.getElementById("map"), mapOptions);
 
-            //test marker position from what i read on google documentation
-            new google.maps.Marker({position: {lat: 52.3702, lng: 4.8952}, map: map});
-            //new google.maps.Marker({position: {lat: 47.60733884, lng: -122.326381985}, map: map});
-
-            //new google.maps.Marker({position: {lat: sojulat, lng: sojulng}, map: map});
+            //Map Markers
             new google.maps.Marker({position: crime0, map: map});
             new google.maps.Marker({position: crime1, map: map});
             new google.maps.Marker({position: crime2, map: map});
             new google.maps.Marker({position: crime3, map: map});
-
-
-            //new google.maps.Marker({position: {lat: data[0].latitude, lng: data[0].longitude}, map: map});
-
-
-            
-
-
-
-
-
-
-
-            //Loop goes through locations hash
-            //var marker, i;
-            //for (i = 0; i < locations.length; i++) {
-            //    marker = new google.maps.Marker({
-            //        position: new google.maps.LatLng(locations[i][0], locations[i][1]), 
-            //        map: map
-            //    });
-            //}
         }
     });
 }

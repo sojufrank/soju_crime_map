@@ -32,14 +32,18 @@ function initMap() {
 
             var crimeloop = function() {
             for(i = 0; i < 1000; i++){
-                var marker = new google.maps.Marker({position: crimeloc(i), map: map, icon: "crimescene.png"}); 
+
+                var hover = "Offense: " + data[i].summarized_offense_description;
+                var content = "Offense: " + data[i].summarized_offense_description;
+
+                var marker = new google.maps.Marker({position: crimeloc(i), map: map, title: hover, icon: "crimescene.png"}); 
                 marker.addListener('click', function() {
                 });
                 var infowindow = new google.maps.InfoWindow({
                 
                 });
 
-                var content = "Offense: " + data[i].summarized_offense_description;   
+                   
 
                 google.maps.event.addListener(marker,'click', (function(marker,content,infowindow){ 
                 return function() {
@@ -54,10 +58,10 @@ function initMap() {
 
 
             //docuprint
-            document.getElementById("latlog0").innerHTML = data[0].latitude + " " + data[0].longitude;
-            document.getElementById("latlog1").innerHTML = data[1].latitude + " " + data[1].longitude;
-            document.getElementById("latlog2").innerHTML = data[2].latitude + " " + data[2].longitude;
-            document.getElementById("latlog3").innerHTML = data[3].latitude + " " + data[3].longitude;
+            //document.getElementById("latlog0").innerHTML = data[0].latitude + " " + data[0].longitude;
+            //document.getElementById("latlog1").innerHTML = data[1].latitude + " " + data[1].longitude;
+            //document.getElementById("latlog2").innerHTML = data[2].latitude + " " + data[2].longitude;
+            //document.getElementById("latlog3").innerHTML = data[3].latitude + " " + data[3].longitude;
             
         }
     });

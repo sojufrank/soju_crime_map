@@ -1,0 +1,83 @@
+function initMap() {
+
+    $.ajax({
+        type: 'GET',
+        url: 'https://data.seattle.gov/resource/7ais-f98f.json',
+        dataType: 'json',
+        success: function(data) {
+
+            var crimeloc = function(i){
+                var crimetest = new google.maps.LatLng(parseFloat(data[i].latitude), parseFloat(data[i].longitude));
+                return crimetest;
+            }
+
+            var crimejson = function(i){
+                var crimejsontest = data[i]; 
+                return crimejsontest;
+            }
+
+            //console.log(crimeloc(0));
+            //console.log(crimeloc(1));
+            
+
+
+
+            var sojulat = parseFloat(data[0].latitude);
+            var sojulng = parseFloat(data[0].longitude);
+
+            var crime0= new google.maps.LatLng(sojulat,sojulng);
+            var crime1= new google.maps.LatLng(parseFloat(data[1].latitude), parseFloat(data[1].longitude));
+            var crime2= new google.maps.LatLng(parseFloat(data[2].latitude), parseFloat(data[2].longitude));
+            var crime3= new google.maps.LatLng(parseFloat(data[3].latitude), parseFloat(data[3].longitude));
+
+            //console.log(crime0);
+            
+            //print lat and log to console
+            //console.log(data[0]);
+            //console.log(data[1]);
+            //console.log(data[2]);
+            //console.log(data[3]);
+
+            //print lat and log to page
+            document.getElementById("latlog0").innerHTML = data[0].latitude + " " + data[0].longitude;
+            document.getElementById("latlog1").innerHTML = data[1].latitude + " " + data[1].longitude;
+            document.getElementById("latlog2").innerHTML = data[2].latitude + " " + data[2].longitude;
+            document.getElementById("latlog3").innerHTML = data[3].latitude + " " + data[3].longitude;
+
+            //Dynamic Locations from ajax call
+            var locations = [
+                [data[0].latitude, data[0].longitude],
+                [data[1].latitude, data[1].longitude],
+                [data[2].latitude, data[2].longitude],
+                [data[3].latitude, data[3].longitude],
+            ];
+
+            //seattle coords - {lat: 47.6097, lng: -122.3331}
+            var myLatlng = new google.maps.LatLng(47.6097, -122.3331);
+
+            var mapOptions = {
+                zoom: 12,
+                center: myLatlng
+            }
+            //<div id="map">
+            var map = new google.maps.Map(document.getElementById("map"), mapOptions);
+
+            //Map Markers
+
+            console.log(crimejson(1));
+
+            for(i = 0; i < 100; i++){
+                new google.maps.Marker({position: crimeloc(i), map: map});  
+
+            }
+
+
+
+
+            //new google.maps.Marker({position: crime0, map: map});
+            //new google.maps.Marker({position: crime1, map: map});
+            //new google.maps.Marker({position: crime2, map: map});
+            //new google.maps.Marker({position: crime3, map: map});
+        }
+    });
+}

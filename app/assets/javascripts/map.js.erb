@@ -11,41 +11,12 @@ function initMap() {
                 return crimetest;
             }
 
-            console.log(crimeloc(0));
-            console.log(crimeloc(1));
-            
+            var crimejson = function(i){
+                var crimejsontest = data[i]; 
+                return crimejsontest;
+            }
 
-
-
-            var sojulat = parseFloat(data[0].latitude);
-            var sojulng = parseFloat(data[0].longitude);
-
-            var crime0= new google.maps.LatLng(sojulat,sojulng);
-            var crime1= new google.maps.LatLng(parseFloat(data[1].latitude), parseFloat(data[1].longitude));
-            var crime2= new google.maps.LatLng(parseFloat(data[2].latitude), parseFloat(data[2].longitude));
-            var crime3= new google.maps.LatLng(parseFloat(data[3].latitude), parseFloat(data[3].longitude));
-
-            console.log(crime0);
-            
-            //print lat and log to console
             console.log(data[0]);
-            console.log(data[1]);
-            console.log(data[2]);
-            console.log(data[3]);
-
-            //print lat and log to page
-            document.getElementById("latlog0").innerHTML = data[0].latitude + " " + data[0].longitude;
-            document.getElementById("latlog1").innerHTML = data[1].latitude + " " + data[1].longitude;
-            document.getElementById("latlog2").innerHTML = data[2].latitude + " " + data[2].longitude;
-            document.getElementById("latlog3").innerHTML = data[3].latitude + " " + data[3].longitude;
-
-            //Dynamic Locations from ajax call
-            var locations = [
-                [data[0].latitude, data[0].longitude],
-                [data[1].latitude, data[1].longitude],
-                [data[2].latitude, data[2].longitude],
-                [data[3].latitude, data[3].longitude],
-            ];
 
             //seattle coords - {lat: 47.6097, lng: -122.3331}
             var myLatlng = new google.maps.LatLng(47.6097, -122.3331);
@@ -58,15 +29,37 @@ function initMap() {
             var map = new google.maps.Map(document.getElementById("map"), mapOptions);
 
             //Map Markers
-            for(i = 0; i < 1000; i++){
-                new google.maps.Marker({position: crimeloc(i), map: map});
-                
-            }
 
-            //new google.maps.Marker({position: crime0, map: map});
-            //new google.maps.Marker({position: crime1, map: map});
-            //new google.maps.Marker({position: crime2, map: map});
-            //new google.maps.Marker({position: crime3, map: map});
+            var crimeloop = function() {
+            for(i = 0; i < 100; i++){
+                var marker = new google.maps.Marker({position: crimeloc(i), map: map}); 
+                marker.addListener('click', function() {
+                infowindow.open(map, marker);
+                });
+                var infowindow = new google.maps.InfoWindow({
+                content: ""
+                });
+
+                var content = "Offense: " + data[i].summarized_offense_description;   
+
+                google.maps.event.addListener(marker,'click', (function(marker,content,infowindow){ 
+                return function() {
+                infowindow.setContent(content);
+                infowindow.open(map,marker);
+                };
+                })(marker,content,infowindow)); 
+            }
+            } 
+
+            crimeloop();  
+
+
+            //docuprint
+            document.getElementById("latlog0").innerHTML = data[0].latitude + " " + data[0].longitude;
+            document.getElementById("latlog1").innerHTML = data[1].latitude + " " + data[1].longitude;
+            document.getElementById("latlog2").innerHTML = data[2].latitude + " " + data[2].longitude;
+            document.getElementById("latlog3").innerHTML = data[3].latitude + " " + data[3].longitude;
+            
         }
     });
 }

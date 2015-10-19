@@ -32,7 +32,7 @@ function initMap() {
 
             var crimeloop = function() {
             for(i = 0; i < 1000; i++){
-                var marker = new google.maps.Marker({position: crimeloc(i), map: map}); 
+                var marker = new google.maps.Marker({position: crimeloc(i), map: map, icon: "crimescene.png"}); 
                 marker.addListener('click', function() {
                 });
                 var infowindow = new google.maps.InfoWindow({

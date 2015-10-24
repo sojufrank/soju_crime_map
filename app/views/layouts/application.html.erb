@@ -45,3 +45,66 @@
 
   </body>
 </html>
+
+<script>
+
+function initMap() {
+
+    $.ajax({
+        type: 'GET',
+        url: 'https://data.seattle.gov/resource/7ais-f98f.json',
+        dataType: 'json',
+        success: function(data) {
+
+            var crimeloc = function(i) {
+                var crimetest = new google.maps.LatLng(parseFloat(data[i].latitude), parseFloat(data[i].longitude));
+                return crimetest;
+            }
+
+            var crimejson = function(i) {
+                var crimejsontest = data[i];
+                return crimejsontest;
+            }
+
+            console.log(data);
+
+            //seattle coords - {lat: 47.6097, lng: -122.3331}
+            var myLatlng = new google.maps.LatLng(47.6097, -122.3331);
+
+            var mapOptions = {
+                    zoom: 14,
+                    center: myLatlng
+                }
+                //<div id="map">
+            var map = new google.maps.Map(document.getElementById("map"), mapOptions);
+
+            //Map Markers
+
+            var crimeloop = function() {
+                for (i = 0; i < 1000; i++) {
+
+                    var hovertitle = "Offense: " + data[i].summarized_offense_description;
+                    var content = "Date: " + data[i].date_reported.substring(0, 10) + " " + "Offense: " + data[i].summarized_offense_description;
+
+                    var marker = new google.maps.Marker({
+                        position: crimeloc(i),
+                        map: map,
+                        title: hovertitle,
+                        icon: "crimescene.png"
+                    });
+                    marker.addListener('click', function() {});
+                    var infowindow = new google.maps.InfoWindow({
+                    });
+                    google.maps.event.addListener(marker, 'click', (function(marker, content, infowindow) {
+                        return function() {
+                            infowindow.setContent(content);
+                            infowindow.open(map, marker);
+                        };
+                    })(marker, content, infowindow));
+                }
+            }
+            crimeloop();
+        }
+    });
+}
+</script>

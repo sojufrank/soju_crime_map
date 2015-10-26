@@ -6,7 +6,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title><%= content_for?(:title) ? yield(:title) : "Crimemap" %></title>
     <%= csrf_meta_tags %>
-    <link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
 
     <!-- Le HTML5 shim, for IE6-8 support of HTML elements -->
     <!--[if lt IE 9]>
@@ -38,115 +37,7 @@
     <%= javascript_include_tag "application" %>
   </head>
   <body>
-
-    <% render 'layouts/navbar' %>
-    
-    <% render 'layouts/body' %>
-
-    <div class="container" id="bordermap" align="center">
-    <div class="container" id="mapborder" align="center">
-    <div id="map" style="width: 500px; height: 500px;"></div>
-    </div>
-    </div>
-
-<div>
-      <select class="form-control crimesOutput" onchange="filterMarkers(this.value);">
-            <option>100</option>
-            <option>250</option>
-            <option>500</option>
-            <option>750</option>
-            <option>1000</option>
-      </select>
-</div>
-
-
+<%= render 'layouts/navbar' %>
+<%= render 'layouts/body' %>
   </body>
 </html>
-
-    <script async defer
-      src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAFDSXEp9yQrC-X1L-smboTPORC5zMgr0A&callback=initMap">
-    </script>
-
-<script>
-
-
-
-function initMap(x) {
-
-    $.ajax({
-        type: 'GET',
-        url: 'https://data.seattle.gov/resource/7ais-f98f.json',
-        dataType: 'json',
-        success: function(data) {
-
-            var crimeloc = function(i) {
-                var crimetest = new google.maps.LatLng(parseFloat(data[i].latitude), parseFloat(data[i].longitude));
-                return crimetest;
-            }
-
-            var crimejson = function(i) {
-                var crimejsontest = data[i];
-                return crimejsontest;
-            }
-
-            //console.log(data);
-
-            //seattle coords - {lat: 47.6097, lng: -122.3331}
-            var myLatlng = new google.maps.LatLng(47.6097, -122.3331);
-
-            var mapOptions = {
-                    zoom: 14,
-                    center: myLatlng
-                }
-                //<div id="map">
-            var map = new google.maps.Map(document.getElementById("map"), mapOptions);
-
-            //Map Markers
-
-            var crimeloop = function() {
-                
-                if (x > 100){
-                    y = x;
-                }
-                else {
-                y = 100; 
-                }
-
-                
-                
-                
-
-                for (i = 0; i < y; i++) {
-
-                    var hovertitle = "Offense: " + data[i].summarized_offense_description;
-                    var content = "Date: " + data[i].date_reported.substring(0, 10) + " " + "Offense: " + data[i].summarized_offense_description;
-
-                    var marker = new google.maps.Marker({
-                        position: crimeloc(i),
-                        map: map,
-                        title: hovertitle,
-                        icon: "crimescene.png"
-                    });
-                    marker.addListener('click', function() {});
-                    var infowindow = new google.maps.InfoWindow({
-                    });
-                    google.maps.event.addListener(marker, 'click', (function(marker, content, infowindow) {
-                        return function() {
-                            infowindow.setContent(content);
-                            infowindow.open(map, marker);
-                        };
-                    })(marker, content, infowindow));
-                }
-            }
-            crimeloop();
-        }
-    });
-}
-
-var filterMarkers = function(x){
-    console.log(x);
-    initMap(x);
-}
-
-
-</script>

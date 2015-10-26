@@ -39,16 +39,39 @@
   </head>
   <body>
 
-    <%= render 'layouts/navbar' %>
+    <% render 'layouts/navbar' %>
     
-    <%= render 'layouts/body' %>
+    <% render 'layouts/body' %>
+
+    <div class="container" id="bordermap" align="center">
+    <div class="container" id="mapborder" align="center">
+    <div id="map" style="width: 500px; height: 500px;"></div>
+    </div>
+    </div>
+
+<div>
+      <select class="form-control crimesOutput" onchange="filterMarkers(this.value);">
+            <option>100</option>
+            <option>250</option>
+            <option>500</option>
+            <option>750</option>
+            <option>1000</option>
+      </select>
+</div>
+
 
   </body>
 </html>
 
+    <script async defer
+      src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAFDSXEp9yQrC-X1L-smboTPORC5zMgr0A&callback=initMap">
+    </script>
+
 <script>
 
-function initMap() {
+
+
+function initMap(x) {
 
     $.ajax({
         type: 'GET',
@@ -66,7 +89,7 @@ function initMap() {
                 return crimejsontest;
             }
 
-            console.log(data);
+            //console.log(data);
 
             //seattle coords - {lat: 47.6097, lng: -122.3331}
             var myLatlng = new google.maps.LatLng(47.6097, -122.3331);
@@ -81,7 +104,19 @@ function initMap() {
             //Map Markers
 
             var crimeloop = function() {
-                for (i = 0; i < 250; i++) {
+                
+                if (x > 100){
+                    y = x;
+                }
+                else {
+                y = 100; 
+                }
+
+                
+                
+                
+
+                for (i = 0; i < y; i++) {
 
                     var hovertitle = "Offense: " + data[i].summarized_offense_description;
                     var content = "Date: " + data[i].date_reported.substring(0, 10) + " " + "Offense: " + data[i].summarized_offense_description;
@@ -107,4 +142,11 @@ function initMap() {
         }
     });
 }
+
+var filterMarkers = function(x){
+    console.log(x);
+    initMap(x);
+}
+
+
 </script>
